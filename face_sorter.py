@@ -12,8 +12,8 @@ import time
 
 class FaceSorter:
 
+    # Allowed file types
     image_file_types = ('.jpg', '.JPG', '.jpeg')
-    image_files = []
     
     # List of known face_encoding
     known_face_encodings = []
